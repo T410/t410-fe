@@ -1,0 +1,18 @@
+{
+	"navigation": {
+		"items": [
+			{
+				"label": "Tayyib Cankat",
+				"link": "#"
+			},
+			{
+				"label": "About Me",
+				"link": "/about-me"
+			},
+			{
+				"label": "Projects",
+				"link": "/projects"
+			}
+		]
+	}
+}
