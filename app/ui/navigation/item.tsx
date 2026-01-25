@@ -1,12 +1,14 @@
-interface NavigationItemProps {
+import Link from "next/link";
+
+interface ItemProps {
 	readonly label: string;
 	readonly link?: string;
 }
 
-export default function NavigationItem({ label, link }: NavigationItemProps) {
+export default function Item({ label, link }: ItemProps) {
 	return (
-		<a href={link} className="hover:text-orange-500 duration-75">
+		<Link href={link || "#"} className="hover:text-orange-500 duration-75">
 			{label}
-		</a>
+		</Link>
 	);
 }
