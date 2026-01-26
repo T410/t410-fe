@@ -2,16 +2,18 @@
 	"navigation": {
 		"items": [
 			{
-				"label": "Tayyib Cankat",
-				"link": "/"
+				"name": "Tayyib Cankat",
+				"href": "/"
 			},
 			{
-				"label": "About Me",
-				"link": "/about-me"
+				"name": "About Me",
+				"href": "/about-me",
+				"icon": "AcademicCapIcon"
 			},
 			{
-				"label": "Projects",
-				"link": "/projects"
+				"name": "Projects",
+				"href": "/projects",
+				"icon": "ArchiveBoxIcon"
 			}
 		]
 	}
