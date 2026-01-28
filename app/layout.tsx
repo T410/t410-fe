@@ -19,7 +19,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${afacad.className} antialiased`}>
 				<Navigation />
-				<div className="w-full pt-20 ps-8">{children}</div>
+				<div className="w-full pt-20">{children}</div>
 			</body>
 		</html>
 	);
