@@ -2,11 +2,13 @@
 	"navigation": {
 		"items": [
 			{
-				"name": "Tayyib",
+				"name": "Tayyib Cankat",
+				"short": "Tayyib",
 				"href": "/"
 			},
 			{
 				"name": "About Me",
+				"short": "Me",
 				"href": "/about-me",
 				"icon": "AcademicCapIcon"
 			},
