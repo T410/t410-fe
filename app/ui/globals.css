@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-	--background: #ffffff;
+	--background: oklch(95.835% 0.0086 16.611 / 0.995);
 	--foreground: #171717;
 }
 
@@ -11,16 +11,20 @@
 	--font-sans: var(--font-geist-sans);
 	--font-mono: var(--font-geist-mono);
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background: #3a3a3a;
 		--foreground: #ededed;
 	}
-}
+} */
 
 body {
 	background: var(--background);
 	color: var(--foreground);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@theme {
+	--breakpoint-xs: 30rem;
 }
